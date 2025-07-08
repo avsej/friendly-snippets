@@ -28,6 +28,11 @@
         "body": ["${CURRENT_MONTH}/${CURRENT_DATE}/${CURRENT_YEAR}"],
         "description": "Put the date in (m/D/Y) format"
     },
+    "dateRPM": {
+        "prefix": "dateRPM",
+        "body": ["${CURRENT_DAY_NAME_SHORT} ${CURRENT_MONTH_NAME_SHORT} ${CURRENT_DATE} ${CURRENT_YEAR}"],
+        "description": "Put the date in (%a %b %d %Y) format"
+    },
     "time": {
         "prefix": "time",
         "body": ["${CURRENT_HOUR}:${CURRENT_MINUTE}"],
